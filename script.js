@@ -3,8 +3,9 @@
  * @author Letícia França
  */
 
-let valor = 7;
-
 for(let i = 0; i <= 10; i++){
-    document.write(valor + " x " + i + " = " + (valor*i) + "<br>");
+    document.write("<p>Tabuada do " + i + "</p>");
+    for(let j = 0; j <= 10; j++){
+        document.write(i + " x " + j + " = " + (i * j) + "<br>");
+    }
 }
